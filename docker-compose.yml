@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: ../colmeia-api
+    container_name: colmeia-api
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: colmeia-urbana-mvp
+      DATABASE_URL: sqlite:///./data/colmeia.db
+    volumes:
+      - api_data:/app/data
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+    container_name: colmeia-web
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  api_data:
