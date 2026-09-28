@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
   <title id="title">Arquitetura Colmeia Urbana</title>
-  <desc id="desc">Cen�rio 1: interface, API backend com SQLite e API externa Open-Meteo</desc>
+  <desc id="desc">Cenário 1: interface, API backend com SQLite e API externa Open-Meteo</desc>
   <rect width="1100" height="520" fill="#fbf6ea"/>
-  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#1c2416">Colmeia Urbana  Cen�rio 1</text>
-  <text x="40" y="78" font-family="Arial, sans-serif" font-size="16" fill="#6d6758">Interface + API pr�pria + componente externo</text>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#1c2416">Colmeia Urbana — Cenário 1</text>
+  <text x="40" y="78" font-family="Arial, sans-serif" font-size="16" fill="#6d6758">Interface + API própria + componente externo</text>
 
   <rect x="80" y="130" width="260" height="90" rx="16" fill="#fffaf0" stroke="#c4780a" stroke-width="2"/>
   <text x="210" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1c2416">Interface (Front-End)</text>
@@ -34,10 +35,10 @@
   <g font-family="Arial, sans-serif" font-size="13" fill="#1c2416">
     <text x="900" y="300">Legenda</text>
     <line x1="900" y1="320" x2="940" y2="320" stroke="#243322" stroke-width="2" marker-end="url(#arrow)"/>
-    <text x="950" y="324">comunica��o obrigat�ria</text>
+    <text x="950" y="324">comunicação obrigatória</text>
     <rect x="900" y="345" width="18" height="14" fill="#fffaf0" stroke="#c4780a"/>
-    <text x="926" y="357">m�dulo desenvolvido</text>
+    <text x="926" y="357">módulo desenvolvido</text>
     <rect x="900" y="375" width="18" height="14" fill="#d9e8f5" stroke="#3d6f91"/>
-    <text x="926" y="387">m�dulo externo consumido</text>
+    <text x="926" y="387">módulo externo consumido</text>
   </g>
 </svg>
